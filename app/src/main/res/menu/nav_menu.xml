@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_livro"
+            android:icon="@drawable/iccamera"
+            android:title="Câmeras e Vídeo"/>
+
+        <item
+            android:id="@+id/nav_games"
+            android:icon="@drawable/icgames"
+            android:title="Games"/>
+
+        <item
+            android:id="@+id/nav_ferramentas"
+            android:icon="@drawable/icferramentas"
+            android:title="Ferramentas"/>
+
+        <item
+            android:id="@+id/nav_dinheiro"
+            android:icon="@drawable/icdinheiro"
+            android:title="Finanças"/>
+
+        <item
+            android:id="@+id/nav_conta"
+            android:icon="@drawable/icconta"
+            android:title="Conta"/>
+
+        <item
+            android:id="@+id/nav_carrinho"
+            android:icon="@drawable/iccarrinho"
+            android:title="Carrinho"/>
+
+    </group>
+
+</menu>
