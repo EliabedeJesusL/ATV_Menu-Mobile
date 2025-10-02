@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 R.id.bottom_home -> openFragment(InicioFragment())
                 R.id.bottom_profile -> openFragment(BuscarFragment())
                 R.id.bottom_cart -> openFragment(FavoritosFragment())
-                R.id.bottom_menu -> openFragment(PedidosFragment())
+                R.id.bottom_menu -> openFragment(CustomizarFragment())
             }
             true
         }
@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
-            R.id.nav_livro -> openFragment(LivroFragment())
+            R.id.nav_livro -> openFragment(CameVideoFragment())
             R.id.nav_games-> openFragment(GamesFragment())
             R.id.nav_ferramentas -> openFragment(FerramentasFragment())
             R.id.nav_dinheiro -> Toast.makeText(this,"Finanças", Toast.LENGTH_SHORT).show()
