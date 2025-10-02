@@ -34,7 +34,7 @@ class LivroFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_livro, container, false)
+        return inflater.inflate(R.layout.fragment_cams_video, container, false)
     }
 
     companion object {

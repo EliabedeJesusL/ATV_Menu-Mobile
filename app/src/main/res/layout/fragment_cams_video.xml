@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GamesFragment">
+    tools:context=".LivroFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Games"
+        android:text="Câmeras e Vídeo"
         android:gravity="center"
         android:textColor="@color/orange"
         android:textSize="36dp"/>
